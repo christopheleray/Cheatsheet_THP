@@ -32,14 +32,14 @@
 *Add an ssh key:* 
 ` $ heroku keys:add ` 
 
+*To find out where the executable is located, run which:*
 
-*To find out where the executable is located, run which*
+`$ which heroku`
 
-` $ which heroku`
 --------
 ## How to uplaod an Rails app: 
 
-### first create the app  in your favorite folder
+####First create the app  in your favorite folder
 
 *App with sqlite DB:* 
 
@@ -66,7 +66,7 @@ then add the file to your git, commit, and push to heroku:
 
 ` $ git push heroku master`
 
-*IMPORTANT: migrate your DB if you have any DB: 
+*IMPORTANT: migrate your DB if you have any DB:* 
 
 `$ heroku run rails db:migrate`
 
